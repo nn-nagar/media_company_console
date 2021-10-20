@@ -51,7 +51,7 @@ class ShowDetailView(APIView):
 
 
 class ShowDetailCreateView(APIView):
-    permission_classes = (AllowAny,)
+    """ Create Shows permission only Admin user or Super User"""
 
     def post(self, request, *args, **kwargs):
         data = self.request.data
@@ -138,7 +138,7 @@ class EpisodeDetailView(APIView):
 
 
 class EpisodeDetailCreateView(APIView):
-    permission_classes = (AllowAny,)
+    """ Create Episode permission only Admin user or Super User"""
 
     def post(self, request, *args, **kwargs):
         data = self.request.data
@@ -193,7 +193,7 @@ class EpisodeDetailUpdateView(APIView):
 
 
 class FileUpload(APIView):
-    permission_classes = (AllowAny,)
+    """File upload permission only Admin user OR Super user"""
 
     def post(self, request, *args, **kwargs):
         if "file" not in request.data:
