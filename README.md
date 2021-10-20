@@ -1,6 +1,6 @@
-Clone the dirctory and install virtaulenv and setup virtualenv
+Clone the dirctory and install virtualenv and setup virtualenv
 
-Go to project manage.py file and 
+Go to project where manage.py file and 
 
 install project require module by requirements.txt files
 
