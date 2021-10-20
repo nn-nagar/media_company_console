@@ -9,7 +9,7 @@ cmd :$ sudo pip3 install -r requirements.txt
 Test all Rest APIS in PostMan :
  for list APIs use GET method 
  
-      Deatil APis use GET Method 
+      Detail APis use GET Method 
       Create APIs use POST method
       Update APIs use PUT method
       Delete APIS use DELETE method
